@@ -253,6 +253,10 @@ img {
     opacity: 1;
 }
 
+.bug{
+    padding-top: 20px;
+}
+
 .gallery-img {
     padding-left: 20px;
 }
