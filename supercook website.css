@@ -135,11 +135,13 @@ header h1 {
     .container {
         padding-left: 20px;
     padding-right: 20px;
-    max-width: none;
+    max-width: auto;
     }
 
     .content-area {
         max-width: none;
+        padding-left: 20px;
+        max-width: auto;
     }
 
     body {
@@ -150,9 +152,9 @@ header h1 {
         overflow-x: hidden;
     }
 
-    
-
-    
+    .sidebar {
+        float: none;
+    }
 
 }
 
@@ -276,6 +278,31 @@ padding-left: 250px;
 
 
 @media screen and (max-width:700px) {
+
+
+    header {
+        padding-left: 50px;
+    }
+
+    .main-area {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .link p {
+        font-size: 90%;
+    }
+    
+}
+
+.gt {
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+}
+
+
+@media screen and (max-width:480px) {
 
 
     header {
